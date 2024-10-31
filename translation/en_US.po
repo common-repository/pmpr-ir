@@ -1,0 +1,459 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Pmpr-IR\n"
+"POT-Creation-Date: 2021-12-18 13:58+0330\n"
+"PO-Revision-Date: 2021-12-18 16:20+0330\n"
+"Last-Translator: Pmpr <pmpr.ir@gmail.com>\n"
+"Language-Team: Pmpr Development Team\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pmpr-ir.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: asset\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: *.js\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Pmpr-IR"
+msgstr "Pmpr-IR"
+
+#. Author URI of the plugin/theme
+msgid "https://pmpr.ir/"
+msgstr "https://pmpr.ir/"
+
+#. Description of the plugin/theme
+msgid ""
+"Pmpr official Wordpress plugin. Pmpr development team offers high quality "
+"products and services on Wordpress."
+msgstr ""
+"Pmpr official Wordpress plugin. Pmpr development team offers high quality "
+"products and services on Wordpress."
+
+#. Author of the plugin/theme
+msgid "Pmpr Development Team"
+msgstr "Pmpr Development Team"
+
+#: src/Pmpr/Plugin/Pmpr/API.php:69
+msgid "API key is not valid."
+msgstr "API key is not valid."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:72
+#, php-format
+msgid "%s already installed"
+msgstr "%s already installed"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:79
+#, php-format
+msgid "%s installed successfully"
+msgstr "%s installed successfully"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:84
+#, php-format
+msgid "Can not install %s: %s"
+msgstr "Can not install %s: %s"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:92
+#, php-format
+msgid "%s deleted successfully"
+msgstr "%s deleted successfully"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:98
+#, php-format
+msgid "Can not delete %s: %s"
+msgstr "Can not delete %s: %s"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:108 src/Pmpr/Plugin/Pmpr/Ajax.php:116
+#, php-format
+msgid ""
+"There was a problem with the update process of %s, please try again later."
+msgstr ""
+"There was a problem with the update process of %s, please try again later."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:111
+#, php-format
+msgid "%s updated successfully."
+msgstr "%s updated successfully."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:122
+#, php-format
+msgid "%s status changed to active successfully."
+msgstr "%s status changed to active successfully."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:127
+#, php-format
+msgid "%s status changed to inactive successfully."
+msgstr "%s status changed to inactive successfully."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:136
+msgid "Your request is not valid"
+msgstr "Your request is not valid"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:37
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:202
+msgid "Delete"
+msgstr "Delete"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:38
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:234
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Package/Installed.php:23
+msgid "Update"
+msgstr "Update"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:39
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:229
+msgid "Install"
+msgstr "Install"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:40
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:237
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:197
+msgid "Activate"
+msgstr "Activate"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:41
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:192
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:44
+msgid "Are you sure about remove { name }?"
+msgstr "Are you sure about remove { name }?"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:258
+#, php-format
+msgid "More information about %s"
+msgstr "More information about %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:261
+msgid "More Details"
+msgstr "More Details"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:83
+msgid "Search Results"
+msgstr "Search Results"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:90
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Package/Installed.php:55
+msgid "All"
+msgstr "All"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:91
+msgid "Custom"
+msgstr "Custom"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:43
+#, php-format
+msgid "No %s found for: %s."
+msgstr "No %s found for: %s."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:53
+#, php-format
+msgid "Search for %s in the Pmpr Modules Directory."
+msgstr "Search for %s in the Pmpr Modules Directory."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:58
+#, php-format
+msgid "No %s found."
+msgstr "No %s found."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:61
+#, php-format
+msgid "No %s are currently available."
+msgstr "No %s are currently available."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:214
+#, php-format
+msgid "Select %s"
+msgstr "Select %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Package/Installed.php:22
+msgid "Description"
+msgstr "Description"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Package/Installed.php:59
+msgid "Active"
+msgstr "Active"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Package/Installed.php:63
+msgid "Inactive"
+msgstr "Inactive"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:24
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:27
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:30
+msgid "Packages"
+msgstr "Packages"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:25
+msgid "Search Packages"
+msgstr "Search Packages"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:26
+msgid "Add Package"
+msgstr "Add Package"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:28
+msgid "Search Packages ..."
+msgstr "Search Packages ..."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Package.php:31
+msgid "Package"
+msgstr "Package"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Theme.php:24
+#: src/Pmpr/Plugin/Pmpr/Component/Theme.php:28
+msgid "Themes"
+msgstr "Themes"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Theme.php:25
+msgid "Available Packages"
+msgstr "Available Packages"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Theme.php:27
+msgid "Theme"
+msgstr "Theme"
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:92
+msgid ""
+"Phar extension is required to install packages, please enable it. Contact "
+"your web hosting provider for more information."
+msgstr ""
+"Phar extension is required to install packages, please enable it. Contact "
+"your web hosting provider for more information."
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:99
+#, php-format
+msgid "To complete the installation of PMPR plugin, enter your api key in %s."
+msgstr ""
+"To complete the installation of PMPR plugin, enter your api key in %s."
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:102 src/Pmpr/Plugin/Pmpr/Setting.php:144
+msgid "here"
+msgstr "here"
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:178
+msgid "Pmpr"
+msgstr "Pmpr"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:78
+msgid "PMPR Plugin Settings"
+msgstr "PMPR Plugin Settings"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:79
+msgid "Settings"
+msgstr "Settings"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:140
+#, php-format
+msgid "If you need guid to get an api key press %s"
+msgstr "If you need guid to get an api key press %s"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:147
+msgid "API Key"
+msgstr "API Key"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:151
+msgid "Admin Area Font"
+msgstr "Admin Area Font"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:178
+msgid "Account Login"
+msgstr "Account Login"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:179
+#, php-format
+msgid "%s your account%sif you dont have account, %s first."
+msgstr "%s your account%sif you dont have account, %s first."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:183
+msgid "Login to"
+msgstr "Login to"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:188
+msgid "Register"
+msgstr "Register"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:192
+msgid "Add Your Domain"
+msgstr "Add Your Domain"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:196
+msgid "Copy API Key"
+msgstr "Copy API Key"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:270
+msgid "Setting updated successfully."
+msgstr "Setting updated successfully."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:273
+msgid "Setting updated successfully without no change."
+msgstr "Setting updated successfully without no change."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:350
+msgid "Vazir"
+msgstr "Vazir"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:351
+msgid "Lotus"
+msgstr "Lotus"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:352
+msgid "Yekan"
+msgstr "Yekan"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:353
+msgid "Sahel"
+msgstr "Sahel"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:354
+msgid "Mitra"
+msgstr "Mitra"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:355
+msgid "Samim"
+msgstr "Samim"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:356
+msgid "Nazanin"
+msgstr "Nazanin"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:357
+msgid "Shabnam"
+msgstr "Shabnam"
+
+#: template/install/index.php:4
+#, php-format
+msgid "Sorry, you are not allowed to install %s on this site."
+msgstr "Sorry, you are not allowed to install %s on this site."
+
+#: template/install/item.php:44
+msgid "Last Updated:"
+msgstr "Last Updated:"
+
+#: template/install/item.php:45
+#, php-format
+msgid "%s ago"
+msgstr "%s ago"
+
+#: template/install/item.php:54
+#, php-format
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "%s+ Million"
+msgstr[1] "%s+ Million"
+
+#: template/install/item.php:59
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Less Than 10"
+
+#: template/install/item.php:64
+#, php-format
+msgid "%s Active Installations"
+msgstr "%s Active Installations"
+
+#: template/install/not-found.php:5
+msgid "Try Again"
+msgstr "Try Again"
+
+#: template/install/not-found.php:14
+#, php-format
+msgid "There is no custom %s for your domain."
+msgstr "There is no custom %s for your domain."
+
+#: template/install/not-found.php:17
+#, php-format
+msgid "No %s found. Try a different search."
+msgstr "No %s found. Try a different search."
+
+#: template/installed/index.php:5
+#, php-format
+msgid "Sorry, you are not allowed to manage %s for this site."
+msgstr "Sorry, you are not allowed to manage %s for this site."
+
+#: template/installed/index.php:18
+msgid "Add New"
+msgstr "Add New"
+
+#: template/installed/index.php:30
+#, php-format
+msgid "Search Installed %s"
+msgstr "Search Installed %s"
+
+#: template/installed/search-result.php:6
+#, php-format
+msgid "Search results for: %s"
+msgstr "Search results for: %s"
+
+#: template/installed/search.php:10
+#, php-format
+msgid "Search installed %s..."
+msgstr "Search installed %s ..."
+
+#: template/setting/apikey-guid-modal.php:39
+msgid "Previous"
+msgstr "Previous"
+
+#: template/setting/apikey-guid-modal.php:40
+msgid "Next"
+msgstr "Next"
+
+#: template/setting/apikey-guid-modal.php:41
+msgid "Done"
+msgstr "Done"
+
+#: template/setting/step/step-2.php:2
+#, php-format
+msgid "Go to %s form menu."
+msgstr "Go to %s form menu."
+
+#: template/setting/step/step-2.php:2
+msgid "Domains"
+msgstr "Domains"
+
+#: template/setting/step/step-2.php:3
+#, php-format
+msgid "Click on %s Button."
+msgstr "Click on %s Button."
+
+#: template/setting/step/step-2.php:3
+msgid "Add Domain"
+msgstr "Add Domain"
+
+#: template/setting/step/step-2.php:4
+msgid "Fill and submit form."
+msgstr "Fill and submit form."
+
+#: template/setting/step/step-2.php:5
+#, php-format
+msgid "Follow the %s steps, according to the instructions."
+msgstr "Follow the %s steps, according to the instructions."
+
+#: template/setting/step/step-2.php:5
+msgid "Get Ownership"
+msgstr "Get Ownership"
+
+#: template/setting/step/step-3.php:2
+msgid ""
+"Copy value of API Key field and go to your website admin panel and paste it "
+"insite Pmpr plugin's setting section."
+msgstr ""
+"Copy value of API Key field and go to your website admin panel and paste it "
+"insite Pmpr plugin's setting section."
+
+#: template/setting/step/step-3.php:3
+msgid "Save the changes."
+msgstr "Save the changes."

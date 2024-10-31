@@ -1,0 +1,2 @@
+/*! For license information please see upload-1.4.0.js.LICENSE.txt */
+jQuery((function(a){const e=a(".upload-view-toggle"),o=(a(".wrap"),a(document.body));e.attr({role:"button","aria-expanded":"false"}).on("click",(function(a){a.preventDefault(),o.toggleClass("show-upload-view"),e.attr("aria-expanded",o.hasClass("show-upload-view"))}))}));

@@ -1,0 +1,1179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr-IR\n"
+"POT-Creation-Date: 2024-09-07 23:22+0330\n"
+"PO-Revision-Date: 2024-09-07 23:24+0330\n"
+"Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
+"Language-Team: Pmpr Development Team\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pmpr-ir.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: asset\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: *.js\n"
+
+#: src/Pmpr/Plugin/Pmpr/API.php:94
+msgid "API key is not valid."
+msgstr "کلید API معتبر نیست."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:70
+msgid "Scheduled midnight update canceled successfully."
+msgstr "برنامه ریزی به روز رسانی نیمه شب با موفقیت لغو شد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:74
+msgid "You have not permission to cancel components update."
+msgstr "شما اجازه لغو به روز رسانی کامپوننت‌ها را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:88
+#, php-format
+msgid "Process scheduled for midnight (%s)."
+msgstr "فرآیند برای نیمه شب (%s) برنامه ریزی شده است."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:96
+#, php-format
+msgid "Another schedule already set for midnight (%s)."
+msgstr "برنامه‌ ریزی دیگری از قبل برای نیمه شب (%s) تنظیم شده است."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:121
+#, php-format
+msgid "Can not update %s."
+msgstr "نمی توان %s را به روز کرد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:128
+msgid "All components updated successfully."
+msgstr "همه کامپوننت‌ها با موفقیت به روز شدند."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:132
+msgid "Something wrong on updating process, please try again."
+msgstr ""
+"مشکلی در فرآیند به روز رسانی به وجود آمده است، لطفا بعدا دوباره امتحان کنید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:138
+msgid "You have not permission to update components."
+msgstr "شما اجازه به روز رسانی کامپوننت‌ها را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:146
+#, php-format
+msgid "%s already installed."
+msgstr "%s قبلا نصب شده است."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:160 src/Pmpr/Plugin/Pmpr/Asset.php:58
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:289
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:494
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:166
+#, php-format
+msgid "Can not install %s."
+msgstr "نمی توان %s را نصب کرد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:171
+msgid "You have not permission to install components."
+msgstr "شما اجازه نصب کامپوننت‌ها را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:181
+#, php-format
+msgid "%s deleted successfully."
+msgstr "%s با موفقیت حذف شد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:187
+msgid "You have not permission to delete components."
+msgstr "شما اجازه حذف کامپوننت‌ها را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:196 src/Pmpr/Plugin/Pmpr/Component/Item.php:503
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:86
+msgid "Active"
+msgstr "فعال"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:201
+#, php-format
+msgid "%s status changed to activate successfully."
+msgstr "%s با موفقیت فعال شد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:207
+#, php-format
+msgid "%s status changed to inactive successfully."
+msgstr "%s با موفقیت غیر فعال شد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:226 src/Pmpr/Plugin/Pmpr/Setting.php:147
+msgid "Sorry, you have no permission to do this."
+msgstr "متاسفانه شما دسترسی لازم برای انجام این کار را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:230
+msgid "Some requirement not satisfied, please check notices in admin area."
+msgstr ""
+"برخی از الزامات برآورده نشده است، لطفاً اعلان‌ها را در بخش مدیریت بررسی کنید."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:245
+msgid "API key Fetched successfully."
+msgstr "کلید API با موفقیت دریافت شد."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:249 src/Pmpr/Plugin/Pmpr/Ajax.php:266
+msgid "Your request is not valid"
+msgstr "درخواست شما معتبر نیست"
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:262
+msgid "Reconstruction of static resources completed successfully."
+msgstr "بازسازی منابع استاتیکی با موفقیت پایان یافت."
+
+#: src/Pmpr/Plugin/Pmpr/Ajax.php:281
+msgid "Your ajax request is not valid"
+msgstr "درخواست ajax شما معتبر نیست"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:56
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:294
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:504
+msgid "Delete"
+msgstr "پاک کردن"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:59
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:284
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:498
+msgid "Deactivate"
+msgstr "غیرفعال‌سازی"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:60
+msgid "Deactivation"
+msgstr "غیرفعال‌سازی"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:62 src/Pmpr/Plugin/Pmpr/Component/Item.php:497
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:30
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:31
+msgid "Update"
+msgstr "به روز رسانی"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:63
+msgid "Updated"
+msgstr "به روز رسانی شد"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:64
+msgid "Updating"
+msgstr "در حال به روز رسانی"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:66 src/Pmpr/Plugin/Pmpr/Component/Item.php:511
+msgid "Activation"
+msgstr "فعال‌سازی"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:67
+msgid "Activated"
+msgstr "فعال شد"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:68
+msgid "Activating..."
+msgstr "در حال فعال‌سازی ..."
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:70
+msgid "Install"
+msgstr "نصب"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:71
+msgid "Installing..."
+msgstr "در حال نصب..."
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:72
+msgid "Installed"
+msgstr "نصب شد"
+
+#: src/Pmpr/Plugin/Pmpr/Asset.php:76
+msgid "Are you sure about remove { name }?"
+msgstr "آیا مطمئن هستید که می‌خواهید { name } را حذف نمایید؟"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:140
+#, php-format
+msgid "Available %s"
+msgstr "%s در دسترس"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:141
+#, php-format
+msgid "Add %s"
+msgstr "افزودن %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:142
+#, php-format
+msgid "Search %s"
+msgstr "جستجوی %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:143
+#, php-format
+msgid "Search %s ..."
+msgstr "جستجو %s ..."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:233
+#, fuzzy, php-format
+#| msgid "Upload %s"
+msgid "Uploading %s"
+msgstr "بارگذاری %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:236
+#, php-format
+msgid "Upload %s"
+msgstr "بارگذاری %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:305
+#, fuzzy
+#| msgid "Sorry, you are not allowed to install %s on this site."
+msgid "Sorry, you are not allowed to install components on this site."
+msgstr "متاسفانه شما اجازه نصب %s بر روی این سایت را ندارید."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:313
+msgid "Only .zip archives may be uploaded."
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:319
+#, fuzzy
+#| msgid "Your request is not valid."
+msgid "Your uploaded file is not valid."
+msgstr "درخواست شما معتبر نیست."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:366
+#, php-format
+msgid "difference between %s and %s"
+msgstr "تفاوت بین %s و %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:367
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:368
+#, php-format
+msgid "Wordpress %s"
+msgstr "%s وردپرس"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Base.php:395
+msgid "Add New"
+msgstr "افزودن"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Common.php:31
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:98
+msgid "Commons"
+msgstr "زیرساخت‌ها"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Common.php:32
+msgid "Common"
+msgstr "زیرساخت"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Common.php:93
+#, fuzzy
+#| msgid "Some commons already installed."
+msgid "Require components already installed."
+msgstr "برخی از زیرساخت‌ها پیش از این نصب شده بودند."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Common.php:97
+#, fuzzy
+#| msgid "Requirements not satisfied"
+msgid "Some requirements not provided."
+msgstr "نیازمندی‌ها برطرف نشده‌اند"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Cover.php:31
+#: src/Pmpr/Plugin/Pmpr/Component/Cover.php:34
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:106
+msgid "Covers"
+msgstr "کاورها"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Cover.php:32
+msgid "Cover"
+msgstr "کاور"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Cover.php:33
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Cover.php:34
+#, php-format
+msgid "Wordpress %s will be available here to get installed, very soon."
+msgstr "به زودی %sی  وردپرس از طریق این صفحه قابل نصب خواهند بود."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Custom.php:32
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:110
+msgid "Customs"
+msgstr "سفارشی‌ها"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Custom.php:33
+#: src/Pmpr/Plugin/Pmpr/Component/Custom.php:34
+msgid "Custom"
+msgstr "سفارشی"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Custom.php:34
+#, php-format
+msgid "no %s founded for your domain."
+msgstr "هیچ %s برای دامنه شما یافت نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:460
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:337
+msgid "Coming Soon"
+msgstr "به زودی"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:476
+msgid "Accept & Install"
+msgstr "پذیرش و نصب"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:484
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:490
+msgid "Install Now"
+msgstr "هم اکنون نصب نمایید"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:520
+#, php-format
+msgid "More information about %s"
+msgstr "اطلاعات بیشتر در مورد %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Item.php:523
+msgid "More Details"
+msgstr "جزئیات بیشتر"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Cover/Install.php:19
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Module/Install.php:19
+msgid "Dedicated"
+msgstr "اختصاصی"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:79
+msgid "Search Results"
+msgstr "نتیجه جستجو"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:83
+#: src/Pmpr/Plugin/Pmpr/Setting.php:200
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:204
+#, php-format
+msgid "No exclusive %s found for your domain."
+msgstr "هیچ %s اختصاصی برای دامنه شما یافت نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:212
+#, php-format
+msgid "No %s found. Try a different search."
+msgstr "‏%s مورد نظر پیدا نشد. عبارت دیگری را جستجو کنید."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Install.php:215
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:150
+#, php-format
+msgid "No %s found."
+msgstr "%s یافت نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:51
+msgid "Description"
+msgstr "شرح"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:56
+msgid "Automatic Updates"
+msgstr "به‌روزرسانی‌های خودکار"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:82
+msgid "All"
+msgstr "همه"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:90
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:135
+#, php-format
+msgid "No %s found for: %s."
+msgstr "هیچ %s یافت نشد برای: %s."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:145
+#, php-format
+msgid "Search for %s in the Pmpr Modules Directory."
+msgstr "%s را در مخزن ماژول‌های دکتر پیمان محمدپور جستجو کنید."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:153
+#, php-format
+msgid "No %s are currently available."
+msgstr "لیست %s در حال حاضر خالی است."
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:306
+#, php-format
+msgid "Select %s"
+msgstr "انتخاب %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:345
+#, php-format
+msgid "Version %s"
+msgstr "نسخه %s"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:352
+msgid "View Details"
+msgstr "مشاهده جزئیات"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:494
+msgid "Network Activate"
+msgstr "فعال کردن شبکه"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:498
+msgid "Network Deactivate"
+msgstr ""
+"غیرفعال کردن\n"
+" شبکه"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:510
+msgid "Enable Auto-updates"
+msgstr "فعال کردن به روز رسانی های خودکار"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Installed.php:513
+msgid "Disable Auto-updates"
+msgstr "غیرفعال کردن به روز رسانی های خودکار"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Update/Installed.php:21
+msgid "Component"
+msgstr "کامپوننت"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Update/Installed.php:22
+msgid "Current Version"
+msgstr "نسخه فعلی"
+
+#: src/Pmpr/Plugin/Pmpr/Component/ListTable/Update/Installed.php:23
+msgid "New Version"
+msgstr "نسخه جدید"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:72
+msgid "Unable to locate destination directory."
+msgstr "یافتن دایرکتوری مقصد ممکن نیست."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:77
+msgid "Component remove process failed."
+msgstr "فرآیند حذف کامپوننت شکست خورد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:78
+msgid "Component already removed."
+msgstr "کامپوننت قبلاً حذف شده است."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:88
+msgid "Installation package not available."
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:89
+#, php-format
+msgid "Downloading installation package from %s&#8230;"
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:90
+msgid "Unpacking the component&#8230;"
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:91
+msgid "Installing the component&#8230;"
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:92
+msgid "The component contains no files."
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:93
+msgid "Component installation failed."
+msgstr "نصب کامپوننت انجام نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:94
+msgid "Component installed successfully."
+msgstr "کامپوننت با موفقیت نصب شد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:95
+#, php-format
+msgid "Successfully installed the component <strong>%1$s %2$s</strong>."
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:103
+msgid "The component is at the latest version."
+msgstr "کامپوننت آخرین نسخه را دارد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:104
+msgid "Update package not available."
+msgstr "به روز رسانی موجود نیست."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:105
+#, php-format
+msgid "Downloading update from %s&#8230;"
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:106
+msgid "Unpacking the update&#8230;"
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:107
+msgid "Component update failed."
+msgstr "به‌روزرسانی کامپوننت انجام نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:108
+msgid "Component updated successfully."
+msgstr "کامپوننت با موفقیت به روز شد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:109
+msgid "Components updated successfully."
+msgstr "همه کامپوننت‌ها با موفقیت به روز شدند."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:555
+msgid "Component information response is empty."
+msgstr ""
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:586
+#, php-format
+msgid ""
+"The PHP version on your server is %1$s, however the uploaded component requires "
+"%2$s."
+msgstr "نسخه PHP در سرور شما %1$s است، اما کامپوننت دانلود شده به %2$s نیاز دارد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Installer.php:598
+#, php-format
+msgid ""
+"Your WordPress version is %1$s, however the uploaded component requires %2$s."
+msgstr "نسخه وردپرس شما %1$s است، اما کامپوننت دانلود شده به %2$s نیاز دارد."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Skin/Upgrader.php:54
+#, fuzzy
+#| msgid "Update Components"
+msgid "Update Component"
+msgstr "به روز رسانی کامپوننت‌ها"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Manager/Skin/Upgrader.php:140
+#, fuzzy
+#| msgid "Some commons already installed."
+msgid "This component is already installed."
+msgstr "برخی از زیرساخت‌ها پیش از این نصب شده بودند."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Module.php:31
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:102
+msgid "Modules"
+msgstr "ماژول‌ها"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Module.php:32
+msgid "Module"
+msgstr "ماژول"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Module.php:33
+msgid "Plugin"
+msgstr "پلاگین"
+
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:138
+#, php-format
+msgid "All your %s is updated."
+msgstr "همه %s شما به روز هستند."
+
+#: src/Pmpr/Plugin/Pmpr/Component/Update.php:139
+#, php-format
+msgid "%s are updating.."
+msgstr "%s در حال به روز رسانی است.."
+
+#: src/Pmpr/Plugin/Pmpr/Container/Container.php:59
+msgid ""
+"There is a problem in commons installation. Please refresh the page to try "
+"again. Contact us, if the problem remain."
+msgstr ""
+"مشکل در نصب زیرساخت. لطفا صفحه را رفرش کنید. در صورت تکرار مشکل، با ما تماس "
+"بگیرید."
+
+#: src/Pmpr/Plugin/Pmpr/Helper/HTML.php:425
+msgid "Pmpr Plugin"
+msgstr "افزونه دکتر پیمان محمدپور"
+
+#: src/Pmpr/Plugin/Pmpr/Helper/Type.php:215
+#, php-format
+msgid "%s \\a\\t %s"
+msgstr "%s در %s"
+
+#: src/Pmpr/Plugin/Pmpr/Manager.php:292
+msgid "Fetched api key is empty."
+msgstr "کلید API دریافت شده خالی است."
+
+#: src/Pmpr/Plugin/Pmpr/Manager.php:296
+msgid "Can not generate auth key file."
+msgstr "نمی توان فایل کلید احراز هویت را ایجاد کرد."
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:187
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:227
+#, php-format
+msgid "A new update is available for some of Pmpr components, %s."
+msgstr ""
+"به روز رسانی‌ تازه‌ای برای بعضی از کامپوننت‌های دکتر پیمان محمدپور در دسترس است، "
+"%s."
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:230
+msgid "Please install them"
+msgstr "لطفا آن‌ها را نصب کنید"
+
+#: src/Pmpr/Plugin/Pmpr/Pmpr.php:328
+msgid "Pmpr"
+msgstr "دکتر محمدپور"
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:85
+msgid "Your request is ok."
+msgstr "درخواست شما معتبر است."
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:88
+#, php-format
+msgid "Something wrong on install update for %s: %s"
+msgstr "مشکلی در نصب به روز رسانی برای %s به وجود آمده است: %s"
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:92
+#, php-format
+msgid "Version %s or higher version already installed."
+msgstr "نسخه %s و یا بالاتر پیش از این نصب شده است."
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:96
+#, php-format
+msgid "%s not installed in %s"
+msgstr "%s رو %s نصب نشده است"
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:100
+msgid "Your request is not valid."
+msgstr "درخواست شما معتبر نیست."
+
+#: src/Pmpr/Plugin/Pmpr/REST/Controller.php:104
+msgid "Require parameters missing."
+msgstr "پارامتر‌های ضروری یافت نشد."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:84
+msgid "PMPR Plugin Settings"
+msgstr "تنظیمات افزونه دکتر پیمان محمدپور"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:85
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:121
+msgid "Requirements not satisfied"
+msgstr "نیازمندی‌ها برطرف نشده‌اند"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:205
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:119
+msgid "API Key"
+msgstr "کلید API Key"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:211
+msgid "Fetch API Key"
+msgstr "دریافت کلید API"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:215
+msgid "Admin Area Font"
+msgstr "فونت پنل مدیریت وردپرس"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:221
+msgid "Regenerate Static Resources"
+msgstr "بازسازی منابع استاتیکی"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:222
+msgid "Only use in situations in which the plugin does not function properly"
+msgstr "فقط برای استفاده در شرایطی که عملکرد افزونه مختل شده است"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:228
+msgid "Contact"
+msgstr "تماس"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:231
+msgid "Contact US"
+msgstr "تماس با ما"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:236
+msgid "Contact Form"
+msgstr "فرم تماس"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:239
+msgid "Whatsapp"
+msgstr "واتساپ"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:244
+msgid "Send message on Whatsapp"
+msgstr "ارسال پیام در واتساپ"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:247
+msgid "Tel 1"
+msgstr "تلفن ۱"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:251
+msgid "Tel 2"
+msgstr "تلفن ۲"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:350
+msgid "Setting updated successfully."
+msgstr "تنظیمات با موفقیت به روز رسانی شد."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:353
+msgid "Setting updated successfully without no change."
+msgstr "تنظیمات بدون هیچ تغییری به روز شد."
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:446
+msgid "Vazir"
+msgstr "وزیر"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:447
+msgid "Lotus"
+msgstr "لوتوس"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:448
+msgid "Yekan"
+msgstr "یکان"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:449
+msgid "Sahel"
+msgstr "ساحل"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:450
+msgid "Mitra"
+msgstr "میترا"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:451
+msgid "Samim"
+msgstr "سمیم"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:452
+msgid "Nazanin"
+msgstr "نازنین"
+
+#: src/Pmpr/Plugin/Pmpr/Setting.php:453
+msgid "Shabnam"
+msgstr "شبنم"
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:47
+msgid "here"
+msgstr "اینجا"
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:49
+#, php-format
+msgid "Please install commons from %s."
+msgstr "لطفاً زیرساخت را از %s نصب کنید."
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:106
+msgid "Please contact us."
+msgstr "لطفا با ما تماس بگیرید."
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:107
+msgid "Components Installation Possibility"
+msgstr "امکان نصب کامپوننت‌ها"
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:108
+msgid ""
+"Access to domain root directory is required to complete the installation "
+"process."
+msgstr "دسترسی به دایرکتوری اصلی دامنه برای تکمیل فرآیند نصب الزامی است."
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:115
+msgid "To complete the installation of PMPR plugin"
+msgstr "برای تکمیل نصب افزونه دکتر پیمان محمدپور"
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:116
+msgid "enter your api key in here"
+msgstr "کلید API خود را در اینجا وارد کنید"
+
+#: src/Pmpr/Plugin/Pmpr/Traits/CommonTrait.php:120
+msgid "It's required to communicate with the server."
+msgstr "برای برقراری ارتباط با سرور ضروری است."
+
+#: template/install/index.php:8
+#, php-format
+msgid "Sorry, you are not allowed to install %s on this site."
+msgstr "متاسفانه شما اجازه نصب %s بر روی این سایت را ندارید."
+
+#: template/install/index.php:62
+#, php-format
+msgid ""
+"If you have a %s in a .zip format, you may install or update it by uploading it "
+"here."
+msgstr ""
+"اگر یک %s در قالب .zip دارید، می توانید آن را با بارگذاری در اینجا نصب یا به "
+"روز کنید."
+
+#: template/install/index.php:67
+#, php-format
+msgid "%s zip file"
+msgstr "فایل zip %s"
+
+#: template/install/index.php:72
+msgctxt "component"
+msgid "Install Now"
+msgstr "هم اکنون نصب نمایید"
+
+#: template/install/item.php:63
+msgid "Release Schedule:"
+msgstr "برنامه زمانی انتشار:"
+
+#: template/install/item.php:71
+msgid "Last Updated:"
+msgstr "آخرین به روز رسانی:"
+
+#: template/install/item.php:74
+#, php-format
+msgid "%s ago"
+msgstr "‏%s پیش"
+
+#: template/install/item.php:76
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: template/install/item.php:87
+#, php-format
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "بیش از %s میلیون"
+
+#: template/install/item.php:92
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "کمتر از ۱۰"
+
+#: template/install/item.php:97
+#, php-format
+msgid "%s Active Installations"
+msgstr "%s نصب فعال"
+
+#: template/install/not-found.php:10
+msgid "Try Again"
+msgstr "تلاش مجدد"
+
+#: template/installed/cover-backup.php:9
+msgid "&hellip;"
+msgstr ""
+
+#: template/installed/index.php:8 template/installed/update.php:11
+#, php-format
+msgid "Sorry, you are not allowed to manage %s for this site."
+msgstr "متاسفانه شما اجازه مدیریت ‌%s را ندارید."
+
+#: template/installed/index.php:36
+#, php-format
+msgid "Search Installed %s"
+msgstr "جستجو در %s‌های نصب شده"
+
+#: template/installed/search-result.php:11
+#, php-format
+msgid "Search results for: %s"
+msgstr "نتیجه جستجو برای : %s"
+
+#: template/installed/update.php:20
+msgid "Check Update"
+msgstr "بررسی به روز رسانی"
+
+#: template/installed/update.php:36 template/installed/update.php:95
+#: template/installed/update.php:117
+msgid "Update Components"
+msgstr "به روز رسانی کامپوننت‌ها"
+
+#: template/installed/update.php:46
+#, php-format
+msgid "An update scheduled for midnight (%s)."
+msgstr "یک به روز رسانی برای نیمه شب (%s) برنامه ریزی شده است."
+
+#: template/installed/update.php:55 template/installed/update.php:68
+msgid "Update Now!"
+msgstr "همین الان به روز کن!"
+
+#: template/installed/update.php:57 template/installed/update.php:98
+msgid ""
+"During the installation of updates, the site maintenance mode is temporarily "
+"activated and after the installation is finished, the site will be available as "
+"before."
+msgstr ""
+"حین نصب به روز رسانی‌ها، حالت نگهداری سایت، موقتا فعال شده و پس از پایان نصب، "
+"سایت مثل سابق در دسترس خواهد بود."
+
+#: template/installed/update.php:61 template/installed/update.php:110
+msgid "Install right now"
+msgstr "همین الان نصب کن"
+
+#: template/installed/update.php:73 template/installed/update.php:86
+msgid "Cancel Midnight Update"
+msgstr "لغو به روز رسانی نیمه‌ شب"
+
+#: template/installed/update.php:75
+msgid "Are you sure about canceling the update schedule?"
+msgstr "در مورد لغو برنامه ریزی به روز رسانی مطمئن هستید؟"
+
+#: template/installed/update.php:79
+msgid "Cancel Update"
+msgstr "لغو به روز رسانی"
+
+#: template/installed/update.php:93
+msgid ""
+"A new update is available for some of Pmpr components, please install them."
+msgstr ""
+"به روز رسانی‌ تازه‌ای برای بعضی از کامپوننت‌های دکتر پیمان محمدپور در دسترس است، "
+"لطفا آن‌ها را نصب کنید."
+
+#: template/installed/update.php:99
+msgid "If site traffic is high, schedule updates for midnight."
+msgstr "اگر ترافیک سایت زیاد است، به روز رسانی را برای نیمه شب برنامه ریزی کنید."
+
+#: template/installed/update.php:103
+msgid "Planning for midnight"
+msgstr "برنامه ریزی برای نیمه شب"
+
+#: template/installed/update.php:123
+msgid "All components are up to date, you can check new update by below button."
+msgstr ""
+"تمامی کامپوننت‌ها به روز هستند، شما می‌توانید با استفاده از دکمه زیر وجود به روز "
+"رسانی را بررسی کنید."
+
+#: template/modal.php:55
+#, php-format
+msgid "Image of %s"
+msgstr "تصویر %s"
+
+#: template/setting/remote/main.php:24
+msgid "Products"
+msgstr "محصولات"
+
+#: template/setting/remote/side.php:15
+msgid "Pmpr Logo"
+msgstr "لوگو دکتر پیمان محمدپور"
+
+#: template/setting/remote/side.php:26
+msgid "Badge Icon"
+msgstr "آیکون نشان"
+
+#: template/setting/remote/side.php:63
+msgid "Stackoverflow Image"
+msgstr "تصویر Stackoverflow"
+
+#: template/setting/step/step-2.php:8
+#, php-format
+msgid "Go to %s form menu."
+msgstr "از منوی جانبی به %s بروید."
+
+#: template/setting/step/step-2.php:8
+msgid "Domains"
+msgstr "دامنه‌ها"
+
+#: template/setting/step/step-2.php:9
+#, php-format
+msgid "Click on %s Button."
+msgstr "روی دکمه %s کلید کنید."
+
+#: template/setting/step/step-2.php:9
+msgid "Add Domain"
+msgstr "افزودن دامنه"
+
+#: template/setting/step/step-2.php:10
+msgid "Fill and submit form."
+msgstr "فرم را تکمیل و ثبت کنید."
+
+#: template/setting/step/step-2.php:11
+#, php-format
+msgid "Follow the %s steps, according to the instructions."
+msgstr "مراحل %s را طبق دستورالعمل انجام دهید."
+
+#: template/setting/step/step-2.php:11
+msgid "Get Ownership"
+msgstr "احراز مالکیت"
+
+#: template/setting/step/step-3.php:8
+msgid ""
+"Copy value of API Key field and go to your website admin panel and paste it "
+"insite Pmpr plugin's setting section."
+msgstr ""
+"مقدار کلید را کپی کرده و در منوی تنظیمات افزونه دکتر پیمان محمدپور در پنل "
+"مدیریت سایت خود قرار دهید."
+
+#: template/setting/step/step-3.php:9
+msgid "Save the changes."
+msgstr "تغییرات را ذخیره کنید."
+
+#. Plugin Name of the plugin/theme
+msgid "Pmpr-IR"
+msgstr "دکتر پیمان محمدپور"
+
+#. Description of the plugin/theme
+msgid ""
+"Pmpr official Wordpress plugin. Pmpr development team offers high quality "
+"products and services on Wordpress."
+msgstr ""
+"افزونه رسمی دکتر پیمان محمدپور. تیم طراحی و توسعه دکتر پیمان محمدپور، ارائه "
+"دهنده محصولات و خدمات نرم افزاری با کیفیت تحت وردپرس."
+
+#. Author of the plugin/theme
+msgid "Pmpr Development Team"
+msgstr "تیم طراحی و توسعه دکتر پیمان محمدپور"
+
+#. Author URI of the plugin/theme
+msgid "https://pmpr.ir/"
+msgstr "https://pmpr.ir/"
+
+#~ msgid "Updating Component %1$s (%2$d/%3$d)"
+#~ msgstr "به روز رسانی کامپوننت‌ %1$s (%2$d/%3$d)"
+
+#~ msgid "Go to Pmpr Updates page"
+#~ msgstr "رفتن به صفحه به روز رسانی دکتر پیمان محمدپور"
+
+#~ msgid "Browse %s"
+#~ msgstr "مرور %s"
+
+#~ msgid "Search installed %s..."
+#~ msgstr "جستجو در %s‌های نصب شده ..."
+
+#~ msgid "Support (Coming Soon)"
+#~ msgstr "پشتیبانی (به زودی)"
+
+#~ msgid ""
+#~ "There will be an option to send support tickets for these purposes very soon:"
+#~ msgstr "به زودی امکان ارسال تیکت پشتیبانی برای موارد زیر فراهم خواهد شد:"
+
+#~ msgid "Troubleshooting you Wordpress website issues"
+#~ msgstr "رفع مشکلات وبسایت وردپرسی شما"
+
+#~ msgid "Adding new features into your Wordpress website"
+#~ msgstr "افزودن امکانات جدید به وبسایت وردپرسی شما"
+
+#~ msgid "Ok"
+#~ msgstr "باشه"
+
+#~ msgid "Alert"
+#~ msgstr "اعلان"
+
+#~ msgid "%s installed successfully."
+#~ msgstr "%s با موفقیت نصب شد."
+
+#~ msgid "no update found for %s."
+#~ msgstr "به روز رسانی برای %s یافت نشد."
+
+#~ msgid "Please run whole update"
+#~ msgstr "لطفا به روز رسانی کامل را اجرا کنید"
+
+#~ msgid "%s updated successfully."
+#~ msgstr "%s با موفقیت به روز شد."
+
+#~ msgid "If you need guid to get an api key press %s"
+#~ msgstr "اگر برای دریافت کلید API Key نیاز به راهنمایی دارید %s کلیک کنید"
+
+#~ msgid "There was a problem with the update process, please try again later."
+#~ msgstr ""
+#~ "مشکلی در فرآیند به روز رسانی به وجود آمده است، لطفا بعدا دوباره امتحان کنید."
+
+#~ msgid "You have not permission to update components"
+#~ msgstr "شما اجازه به روز رسانی کامپوننت‌ها را ندارید"
+
+#~ msgid "Cancel"
+#~ msgstr "انصراف"
+
+#~ msgid "Previous"
+#~ msgstr "قبلی"
+
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#~ msgid "Done"
+#~ msgstr "متوجه شدم"
+
+#~ msgid "Close"
+#~ msgstr "بستن"
+
+#~ msgid "Account Login"
+#~ msgstr "ورود به حساب کاربری"
+
+#~ msgid "%s your account%sif you dont have account, %s first."
+#~ msgstr "‏%s حساب کاربری خود شوید%sاگر حساب کاربری ندارید، ابتدا %s کنید."
+
+#~ msgid "Login to"
+#~ msgstr "وارد"
+
+#~ msgid "Register"
+#~ msgstr "ثبت نام"
+
+#~ msgid "Add Your Domain"
+#~ msgstr "افزودن دامنه"
+
+#~ msgid "Copy API Key"
+#~ msgstr "کپی کلید API Key"
+
+#~ msgid "Some commons installation field: %s"
+#~ msgstr "مشکلی در نصب زیرساخت به وجود آمده است: %s"
+
+#~ msgid "Some commons update failed: %s"
+#~ msgstr "مشکلی در نصب برخی از زیرساخت‌ها به وجود آمده است: %s"
+
+#~ msgid "Can not update some commons, it's need to be install first."
+#~ msgstr ""
+#~ "قادر به بروزرسانی برخی از زیرساخت‌ها نیستم، ابتدا باید آنها را نصب کنید."
+
+#~ msgid "No update found for some commons."
+#~ msgstr "بروزرسانی برای برخی از زیرساخت‌ها یافت نشد."
+
+#~ msgid "Commons installed successfully."
+#~ msgstr "زیرساخت با موفقیت نصب شد."
+
+#~ msgid ""
+#~ "There was a problem with the update process of %s, please try again later."
+#~ msgstr ""
+#~ "مشکلی در فرآیند به روزرسانی %s وجود دارد، لطفا بعدا دوباره امتحان کنید."
+
+#~ msgid "Update %s to %s"
+#~ msgstr "به روز رسانی %s به %s"
+
+#~ msgid "Update to %s"
+#~ msgstr "به روزرسانی به %s"
+
+#~ msgid "There is a new version of %1$s available. %2$s"
+#~ msgstr "نسخه تازه‌ای از %1$s در دسترس است. %2$s"
+
+#~ msgid "PMPR Commons needs to be updated."
+#~ msgstr "زیرساخت نیازمند به روزرسانی است."
+
+#~ msgid "Click here"
+#~ msgstr "اینجا کلیک کنید"
+
+#~ msgid ""
+#~ "Please enable it. Contact your web hosting provider for more information."
+#~ msgstr "با سرویس دهنده میزبانی وب (هاستینگ) خود تماس بگیرید."
+
+#~ msgid "PHP Phar Status"
+#~ msgstr "وضعیت PHP Phar"
+
+#~ msgid "Another installation running, please try 5 minutes later"
+#~ msgstr "یک نصب دیگر در حال اجرا است ، لطفا ۵ دقیقه بعد دوباره سعی کنید"
+
+#~ msgid "Every %d Minutes"
+#~ msgstr "هر %d دقیقه"
+
+#~ msgid ""
+#~ "Static resources cleared, please refresh current page to regenerate them."
+#~ msgstr "منابع استاتیکی پاک شدند، برای بازسازی آنها صفحه جاری را رفرش کنید."
+
+#~ msgid "for enable this input, make sure above items is active and installed"
+#~ msgstr "برای فعال کردن این ورودی، مطمئن شوید که موارد بالا فعال و نصب شده اند"
+
+#~ msgid "Infrastructure"
+#~ msgstr "زیرساخت"
+
+#~ msgid "setting in infrastructure tab"
+#~ msgstr "تنظیمات در تب زیرساخت"
+
+#~ msgid "Infrastructure Status"
+#~ msgstr "وضعیت زیرساخت"
+
+#~ msgid "Exclusive"
+#~ msgstr "اختصاصی"
+
+#~ msgid "Connection"
+#~ msgstr "اتصال"
+
+#~ msgid "Packages"
+#~ msgstr "ماژول‌ها"
+
+#~ msgid "Package"
+#~ msgstr "ماژول"
+
+#~ msgid "Themes"
+#~ msgstr "پوسته‌ها"
+
+#~ msgid "Badge Title"
+#~ msgstr "عنوان نشان"
+
+#~ msgid "Phar Status"
+#~ msgstr "وضعیت Phar"
+
+#~ msgid "Address:"
+#~ msgstr "نشانی:"
+
+#~ msgid "No. 9, Shariati Park, Shariati Str., Tehran, Iran"
+#~ msgstr "ایران ـ تهران - خیابان شریعتی ـ پارک شریعتی ـ شماره ۹"
